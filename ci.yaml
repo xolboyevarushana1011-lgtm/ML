@@ -8,3 +8,11 @@ jobs:
     steps:
       - name: Say hello
         run: echo "Hello from my first pipeline!"
+- name: Lint (pretend)
+        run: echo "Checking that the code is tidy..."
+      - name: Test (pretend)
+        run: echo "Running the tests..."
+      - name: Build (pretend)
+        run: echo "Building the program..."
+      - name: Package (pretend)
+        run: echo "Putting it in a box..."
